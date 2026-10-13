@@ -1,0 +1,29 @@
+2026-10-13 16:02:09,430 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-10-13 16:02:09,431 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 小户型适合哪些扫地机器人
+2026-10-13 16:02:15,596 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-10-13 16:02:15,597 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '小户型 扫地机器人 选择'}
+2026-10-13 16:02:24,081 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-10-13 16:02:24,987 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-10-13 16:02:24,988 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 小户型适合选择基础激光导航机型，如米家1C、石头T4。选购时应关注吸力大小（家用建议≥3000Pa）、导航技术（激光或视觉导航）、电池容量及尘盒/水箱容量等参数。
+2026-10-13 16:03:45,336 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-10-13 16:03:45,337 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-10-13 16:03:49,756 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-10-13 16:03:49,757 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-10-13 16:03:49,760 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-10-13 16:03:49,820 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-10-13 16:03:49,821 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1008
+2026-10-13 16:03:53,439 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-10-13 16:03:53,439 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-10-13 16:03:53,447 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-10-13 16:03:53,541 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-10-13 16:03:53,542 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-05
+2026-10-13 16:03:57,203 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-10-13 16:03:57,203 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-10-13 16:03:57,206 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-10-13 16:03:57,512 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-10-13 16:03:57,512 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-10-13 16:04:02,385 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-10-13 16:04:02,385 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'month': '2025-05', 'user_id': '1008'}
+2026-10-13 16:04:02,443 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-10-13 16:04:03,736 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-10-13 16:04:03,736 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"特征": "100㎡三居 | 三口之家 | 大理石", "效率": "覆盖率:91%\\n避障成功率:96%", "耗材": "主刷寿命:剩余65天\\n水箱加水:每日1次", "对比": "大理石地面清洁效果优于同类15%"}
